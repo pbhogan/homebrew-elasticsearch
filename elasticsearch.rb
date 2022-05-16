@@ -9,7 +9,8 @@ class Elasticsearch < Formula
     depends_on "gradle" => :build
   end
 
-  bottle :unneeded
+  # This is disabled, there is no replacement.
+  # bottle :unneeded
 
   depends_on "openjdk"
 
