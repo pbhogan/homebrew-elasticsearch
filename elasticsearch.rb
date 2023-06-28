@@ -12,7 +12,7 @@ class Elasticsearch < Formula
   # This is disabled, there is no replacement.
   # bottle :unneeded
 
-  depends_on :java => "1.8+" # "openjdk@11"
+  depends_on "openjdk@11"
 
   def cluster_name
     "elasticsearch_#{ENV["USER"]}"
