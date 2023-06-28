@@ -75,7 +75,7 @@ class Elasticsearch < Formula
   end
 
   def caveats
-    s = <<-EOS.undent
+    s = <<-EOS
       Data:    #{var}/elasticsearch/#{cluster_name}/
       Logs:    #{var}/log/elasticsearch/#{cluster_name}.log
       Plugins: #{libexec}/plugins/
